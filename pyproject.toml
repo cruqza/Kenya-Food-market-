@@ -1,0 +1,20 @@
+[project]
+name = "kenya-food-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "cruqza", email = "mugendierickson@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+kenya-food-2 = "kenya_food_2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
